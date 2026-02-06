@@ -312,7 +312,6 @@ select:focus {
     transform: rotate(180deg);
 }
 
-/* Stats Section */
 .stats-section {
     margin-top: 2.5rem;
     padding-top: 2rem;
@@ -508,7 +507,6 @@ select:focus {
     color: var(--divider-color);
 }
 
-/* Tooltips */
 .tooltip-map {
     position: absolute;
     visibility: hidden;
@@ -592,9 +590,6 @@ select:focus {
     100% { transform: rotate(360deg); }
 }
 
-/* ========================================
-   RESPONSIVE DESIGN
-======================================== */
 @media (max-width: 1200px) {
     .flex-row {
         grid-template-columns: 1fr;
@@ -645,7 +640,6 @@ select:focus {
     }
 }
 
-/* Interactive elements animations */
 .map-container svg path {
     transition: var(--transition-smooth);
 }
@@ -656,7 +650,6 @@ select:focus {
     filter: brightness(1.2);
 }
 
-/* Histogram bars animation */
 #edu-histogram rect {
     transition: var(--transition-smooth);
 }
@@ -666,7 +659,6 @@ select:focus {
     filter: brightness(1.2);
 }
 
-/* Pie chart slices */
 #edu-piechart path {
     transition: var(--transition-smooth);
     cursor: pointer;
@@ -689,4 +681,5 @@ select:focus {
     grid-template-rows: repeat(1, auto);
     flex-direction: row;
     gap: 1.5rem;
+
 }
